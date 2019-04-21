@@ -1,0 +1,6 @@
+<!--pages/testcom/testcom.wxml-->
+<text>i am a components</text>
+<view>{{totest}}</view>
+<view>
+  <button bindtap='send'>send</button>
+</view>

@@ -1,0 +1,30 @@
+<view>
+  <swiper autoplay='true' indicator-dots='true' circular='true' interval='2000'>
+    <swiper-item wx:for="{{contant}}" wx:key="index">
+      <view>
+        <image src='{{item}}'></image>
+      </view>
+    </swiper-item>
+  </swiper>
+<!-- 轮播结束 -->
+<view wx:for="{{title}}" wx:key="index" class='title'>
+  <view>{{item.name}}</view>
+  <view>{{item.phone}}</view>
+  <view>{{item.address}}</view>
+  <view>{{item.businessHours}}</view>
+</view>
+
+<!--  -->
+<view wx:for="{{word}}" wx:key="index" class='wordcon'>
+  <view>{{item.name}}</view>
+  <view>{{item.date}}</view>
+  <view>{{item.content}}</view>
+  <view wx:for="{{item.images}}" wx:key="index">
+    <image src='{{item.index}}' class='image'></image>
+  </view>
+</view>
+<!--  -->
+
+
+
+</view>

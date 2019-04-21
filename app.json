@@ -1,0 +1,52 @@
+{
+  "pages":[
+    "pages/food/food",
+    "pages/foods/foods",
+    "pages/request/request",
+    "pages/set/set",
+    "pages/rel/rel",
+    "pages/com/com",
+    "pages/data/data",
+    "pages/event/event",
+    "pages/swiper/swiper",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black",
+    "backgroundColor":"black",
+    "enablePullDownRefresh": false,
+    "onReachBottomDistance":1
+  },
+  "tabBar":{
+    "list":[
+      {
+        "pagePath":"pages/food/food",
+        "iconPath":"./pages/tabs/home.png",
+        "selectedIconPath":"./pages/tabs/home-active.png",
+        "text":"首页"
+      },
+      {
+        "pagePath":"pages/swiper/swiper",
+        "iconPath": "./pages/tabs/message.png",
+        "selectedIconPath": "./pages/tabs/message-active.png",
+        "text":"消息"
+      },
+      {
+        "pagePath": "pages/swiper/swiper",
+        "iconPath": "./pages/tabs/profile.png",
+        "selectedIconPath": "./pages/tabs/profile-active.png",
+        "text": "我的"
+      },
+      {
+        "pagePath": "pages/set/set",
+        "iconPath": "./pages/tabs/contact.png",
+        "selectedIconPath": "./pages/tabs/contact-active.png",
+        "text": "设置"
+      }
+    ]
+  }
+}

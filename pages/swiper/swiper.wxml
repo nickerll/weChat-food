@@ -1,0 +1,21 @@
+<view>
+  <swiper autoplay='{{auto}}' interval='3000' indicator-dots='true' circular='true'>
+    <swiper-item>
+      <view style='width:100%;height:300rpx;background:red;'>
+        <image src='image/0_008.jpg' class='img'></image>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view style='width:100%;height:300rpx;background:green;'>
+        <image src='image/0_009.jpg' class='img'></image>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view style='width:100%;height:300rpx;background:yellow;'>
+      <image src='image/0_010.jpg' class='img'></image>
+      </view>
+    </swiper-item>
+  </swiper>
+  {{auto}}
+  <button bindtap='toggle'>按钮</button>
+</view>

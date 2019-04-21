@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#c0c",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "美食",
+  "enablePullDownRefresh": true
+}

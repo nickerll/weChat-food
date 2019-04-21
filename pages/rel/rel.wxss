@@ -1,0 +1,16 @@
+/* pages/rel/rel.wxss */
+.image{
+  width: 150rpx;
+  height: 150rpx;
+  float: left;
+  margin-right: 20rpx;
+  background: #169ff3;
+}
+.wordcon{
+  padding: 0 30rpx;
+  clear: both;
+  margin-top: 20rpx;
+}
+.title{
+  padding: 20rpx 30rpx;
+}

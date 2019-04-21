@@ -1,0 +1,3 @@
+<!--pages/com/com.wxml-->
+<testcom totest="{{parent}}" bind:get="getchild"></testcom>
+{{getnewchild}}

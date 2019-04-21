@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "我是父组件",
+  "usingComponents": {
+    "testcom":"../testcom/testcom"
+  }
+}

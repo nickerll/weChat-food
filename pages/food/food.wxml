@@ -1,0 +1,19 @@
+<!-- 轮播 -->
+<view>
+  <swiper autoplay='true' interval='2000' circular='true'>
+    <swiper-item wx:for="{{picture}}" wx:key="index">
+      <view class='img'>
+        <image src='{{item.image}}'></image>
+      </view>
+    </swiper-item>
+  </swiper>
+  <!-- 轮播结束 -->
+<!-- 九宫格 -->
+<view class='nine' wx:for="{{icon}}" wx:key="index">
+  <navigator url='/pages/foods/foods?cid={{item.id}}' open-type="navigate">
+    <image src='{{item.icon}}'></image>
+    <view class='nineword'>{{item.name}}</view>
+  </navigator>
+</view>
+<!-- 九宫格结束 -->
+</view>

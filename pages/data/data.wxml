@@ -1,0 +1,17 @@
+<import src="../template/template.wxml"/>
+
+<view>
+  <view wx:if="{{head}}">header</view>
+  <view wx:elif="{{middle}}">middle</view>
+  <view wx:else>footer</view>
+</view>
+<view>
+  <view wx:for="{{arr}}" wx:for-item="data" wx:key="index">{{data}}</view>
+  <view wx:for="{{arr}}" wx:key="index">{{item}}{{index}}</view>
+</view>
+------------------------
+<view wx:for="{{arr}}">
+  <block>
+     <template is="dataitem" data="{{item}}"></template>
+  </block>
+</view>

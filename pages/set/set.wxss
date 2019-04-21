@@ -1,0 +1,20 @@
+/* pages/set/set.wxss */
+view input[type="text"]{
+  border: 1rpx solid #dfdfdf;
+}
+view input[type="checked"]{
+  border: 1rpx solid #dfdfdf;
+}
+.submit{
+  width: 100%;
+  height: 70rpx;
+  background: rgb(5, 175, 34);
+  text-align: center;
+  line-height: 70rpx;
+  color: white;
+  border-radius: 15rpx;
+}
+view{
+  width: 100%;
+  height: 100rpx;
+}

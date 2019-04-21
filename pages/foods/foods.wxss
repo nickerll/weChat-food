@@ -1,0 +1,43 @@
+/* pages/foods/foods.wxss */
+.search{
+  width: 95%;
+  height: 100rpx;
+  background: white;
+  margin: 28rpx auto;
+  text-align: center;
+  font-size: 30rpx;
+}
+.outsear{
+  width: 100%;
+  height: 150rpx;
+  background: rgba(255, 0, 255, 0.158);
+  overflow: hidden;
+}
+.pinfen{
+  margin-left: 30rpx;
+}
+.food{
+  width: 100%;
+  height: 250rpx;
+  padding: 30rpx 20rpx;
+  box-sizing: border-box;
+}
+.picture{
+  width: 200rpx;
+  height:190rpx;
+  background: palevioletred;
+  float: left;
+  margin-right: 30rpx;
+}
+.word{
+  height: 100%;
+  margin-left: 220rpx;
+}
+.con{
+  font-size: 30rpx;
+  line-height: 40rpx;
+}
+.picimg{
+  
+  height: 100%;
+}

@@ -1,0 +1,22 @@
+<view class='outsear'>
+  <input type='text' placeholder='搜索' class='search'></input>
+</view>
+<view>
+  <view class='pinfen'>按评分</view>
+  <view class='food' wx:for="{{word}}" wx:key="index">
+    <navigator url='/pages/rel/rel?nid={{item.id}}' open-type='navigate'>
+      <!-- <view> -->
+        <image src='{{item.images[0]}}' class='picimg' class='picture'></image>
+      <!-- </view> -->
+      <view class='word'>
+        <view>{{item.name}}</view>
+        <view class='con'>{{item.phone}}</view>
+        <view class='con'>{{item.address}}</view>
+        <view class='con'>{{item.businessHours}}</view>
+      </view>
+    </navigator>
+  </view>
+  <view wx:if="{{hasmore}}">加载更多数据</view>
+  <view wx:else>咩有更多数据啦......</view>
+  
+</view>

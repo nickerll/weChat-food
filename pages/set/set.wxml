@@ -1,0 +1,18 @@
+<form>
+  <view>店铺名： <input type='text'></input></view>
+  <view>电话： <input type='text'></input></view>
+  <view>地址： <input type="text"></input></view>
+  <view>请选择开始营业时间： <input type="text"></input></view>
+  <view>请选择结束营业时间： <input type="text"></input></view>
+  <view>店铺类型</view>
+  <view>
+    <radio>周一</radio>
+    <radio>周二</radio>
+    <radio>周三</radio>
+    <radio>周四</radio>
+    <radio>周五</radio>
+    <radio>周六</radio>
+    <radio>周日</radio>
+  </view>
+  <button type='submit' class='submit'>提交</button>
+</form>

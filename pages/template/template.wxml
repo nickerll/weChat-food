@@ -1,0 +1,5 @@
+<view>
+  <template name="dataitem">
+    {{item}}
+  </template>
+</view>
